@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandingView: View {
     var body: some View {
-        VStack {
+        VStack() {
+            LogoNavBar()
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Wardrobe Wise App!!")
-            Text("\nLets see if git works")
+            Text("Hello World!")
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandingView()
     }
 }
+

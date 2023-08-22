@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F6D7EB2B2A95182900D25E43 /* wardrobe_wiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */; };
-		F6D7EB2D2A95182900D25E43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2C2A95182900D25E43 /* ContentView.swift */; };
+		F6D7EB2D2A95182900D25E43 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2C2A95182900D25E43 /* LandingView.swift */; };
 		F6D7EB2F2A95182A00D25E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */; };
 		F6D7EB322A95182A00D25E43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7EB312A95182A00D25E43 /* Preview Assets.xcassets */; };
 		F6D7EB3C2A95182A00D25E43 /* wardrobe_wiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB3B2A95182A00D25E43 /* wardrobe_wiseTests.swift */; };
 		F6D7EB462A95182A00D25E43 /* wardrobe_wiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB452A95182A00D25E43 /* wardrobe_wiseUITests.swift */; };
 		F6D7EB482A95182A00D25E43 /* wardrobe_wiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB472A95182A00D25E43 /* wardrobe_wiseUITestsLaunchTests.swift */; };
+		F6D7EB552A9529FA00D25E43 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB542A9529FA00D25E43 /* AccountView.swift */; };
+		F6D7EB572A952DDC00D25E43 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB562A952DDC00D25E43 /* AnalyticsView.swift */; };
+		F6D7EB592A952EA700D25E43 /* MarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */; };
+		F6D7EB5B2A952EE900D25E43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */; };
+		F6D7EB5D2A9531B500D25E43 /* LogoNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		F6D7EB272A95182900D25E43 /* wardrobe-wise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wardrobe-wise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobe_wiseApp.swift; sourceTree = "<group>"; };
-		F6D7EB2C2A95182900D25E43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6D7EB2C2A95182900D25E43 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D7EB312A95182A00D25E43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6D7EB372A95182A00D25E43 /* wardrobe-wiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wardrobe-wiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		F6D7EB412A95182A00D25E43 /* wardrobe-wiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wardrobe-wiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7EB452A95182A00D25E43 /* wardrobe_wiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobe_wiseUITests.swift; sourceTree = "<group>"; };
 		F6D7EB472A95182A00D25E43 /* wardrobe_wiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobe_wiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6D7EB542A9529FA00D25E43 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		F6D7EB562A952DDC00D25E43 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceView.swift; sourceTree = "<group>"; };
+		F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */,
-				F6D7EB2C2A95182900D25E43 /* ContentView.swift */,
+				F6D7EB2C2A95182900D25E43 /* LandingView.swift */,
 				F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */,
 				F6D7EB302A95182A00D25E43 /* Preview Content */,
+				F6D7EB542A9529FA00D25E43 /* AccountView.swift */,
+				F6D7EB562A952DDC00D25E43 /* AnalyticsView.swift */,
+				F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */,
+				F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */,
+				F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */,
 			);
 			path = "wardrobe-wise";
 			sourceTree = "<group>";
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D7EB2D2A95182900D25E43 /* ContentView.swift in Sources */,
+				F6D7EB552A9529FA00D25E43 /* AccountView.swift in Sources */,
+				F6D7EB5D2A9531B500D25E43 /* LogoNavBar.swift in Sources */,
+				F6D7EB572A952DDC00D25E43 /* AnalyticsView.swift in Sources */,
+				F6D7EB592A952EA700D25E43 /* MarketplaceView.swift in Sources */,
+				F6D7EB5B2A952EE900D25E43 /* SettingsView.swift in Sources */,
+				F6D7EB2D2A95182900D25E43 /* LandingView.swift in Sources */,
 				F6D7EB2B2A95182900D25E43 /* wardrobe_wiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

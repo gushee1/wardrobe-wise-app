@@ -11,7 +11,7 @@ import SwiftUI
 struct wardrobe_wiseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }
