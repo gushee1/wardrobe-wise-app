@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Wardrobe Wise App!!")
+            Text("\nLets see if git works")
         }
         .padding()
     }
