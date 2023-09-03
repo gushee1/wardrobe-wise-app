@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F66103D82AA5143600C245ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103D72AA5143600C245ED /* HomeView.swift */; };
 		F66103DA2AA518C200C245ED /* WardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103D92AA518C200C245ED /* WardrobeView.swift */; };
+		F66103DC2AA51DB900C245ED /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103DB2AA51DB900C245ED /* ClothingItem.swift */; };
 		F6D7EB2B2A95182900D25E43 /* wardrobe_wiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */; };
 		F6D7EB2D2A95182900D25E43 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2C2A95182900D25E43 /* LandingView.swift */; };
 		F6D7EB2F2A95182A00D25E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */; };
@@ -19,7 +20,6 @@
 		F6D7EB552A9529FA00D25E43 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB542A9529FA00D25E43 /* AccountView.swift */; };
 		F6D7EB592A952EA700D25E43 /* MarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */; };
 		F6D7EB5B2A952EE900D25E43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */; };
-		F6D7EB5D2A9531B500D25E43 /* LogoNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		F66103D72AA5143600C245ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F66103D92AA518C200C245ED /* WardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeView.swift; sourceTree = "<group>"; };
+		F66103DB2AA51DB900C245ED /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
 		F6D7EB272A95182900D25E43 /* wardrobe-wise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wardrobe-wise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobe_wiseApp.swift; sourceTree = "<group>"; };
 		F6D7EB2C2A95182900D25E43 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		F6D7EB542A9529FA00D25E43 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceView.swift; sourceTree = "<group>"; };
 		F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				F6D7EB542A9529FA00D25E43 /* AccountView.swift */,
 				F6D7EB582A952EA700D25E43 /* MarketplaceView.swift */,
 				F6D7EB5A2A952EE900D25E43 /* SettingsView.swift */,
+				F66103DB2AA51DB900C245ED /* ClothingItem.swift */,
 				F66103D92AA518C200C245ED /* WardrobeView.swift */,
-				F6D7EB5C2A9531B500D25E43 /* LogoNavBar.swift */,
 				F66103D72AA5143600C245ED /* HomeView.swift */,
 			);
 			path = "wardrobe-wise";
@@ -277,7 +277,7 @@
 			files = (
 				F6D7EB552A9529FA00D25E43 /* AccountView.swift in Sources */,
 				F66103DA2AA518C200C245ED /* WardrobeView.swift in Sources */,
-				F6D7EB5D2A9531B500D25E43 /* LogoNavBar.swift in Sources */,
+				F66103DC2AA51DB900C245ED /* ClothingItem.swift in Sources */,
 				F6D7EB592A952EA700D25E43 /* MarketplaceView.swift in Sources */,
 				F6D7EB5B2A952EE900D25E43 /* SettingsView.swift in Sources */,
 				F66103D82AA5143600C245ED /* HomeView.swift in Sources */,
@@ -441,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wardrobe-wise/Preview Content\"";
+				DEVELOPMENT_TEAM = P9JK37V9B5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -469,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wardrobe-wise/Preview Content\"";
+				DEVELOPMENT_TEAM = P9JK37V9B5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
