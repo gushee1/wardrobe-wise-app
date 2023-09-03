@@ -9,14 +9,36 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        VStack() {
-            LogoNavBar()
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello World!")
+        NavigationView {
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Text("Home")
+                        Image(systemName: "house")
+                    }
+                MarketplaceView()
+                    .tabItem {
+                        Text("Marketplace")
+                        Image(systemName: "tag.square")
+                    }
+                WardrobeView()
+                    .tabItem {
+                        Text("My Wardrobe")
+                        Image(systemName: "cabinet")
+                    }
+                AccountView()
+                    .tabItem {
+                        Text("Account")
+                        Image(systemName: "person.circle")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Text("Settings")
+                        Image(systemName: "gearshape")
+                    }
+            }
+            .navigationTitle("WardrobeWise")
         }
-        .padding()
     }
 }
 

@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct LogoNavBar: View {
-    var body: some View {
-        HStack{
-            Image(systemName: "lizard")
-            Text("WardrobeWise")
-                .font(.headline)
-        }
-        .frame(alignment: .top)
-    }
-}
+    @Environment(\.presentationMode) var presentationMode
 
-struct LogoNavBar_Previews: PreviewProvider {
-    static var previews: some View {
-        LogoNavBar()
+    var body: some View {
+        RoundedRectangle(cornerRadius: 10)
+            .foregroundColor(Color.blue)
+            .frame(height: 50)
+            .overlay(
+                Text("Your App Name")
+                    .foregroundColor(.white)
+            )
+            .onTapGesture {
+                // Navigate back to the main view when tapped
+                self.presentationMode.wrappedValue.dismiss()
+            }
     }
 }
