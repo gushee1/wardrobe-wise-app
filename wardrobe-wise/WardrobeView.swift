@@ -38,6 +38,7 @@ struct WardrobeView: View {
     }
     
     func addNewClothingItem() {
+        //open a new scene to manage naming, registering tag, and taking pictures of new item
         let newItem = ClothingItem(name: "New Item") // Replace with your actual data
         clothingItems.append(newItem)
     }
