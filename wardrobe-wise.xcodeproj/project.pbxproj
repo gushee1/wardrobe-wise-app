@@ -10,6 +10,9 @@
 		F66103D82AA5143600C245ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103D72AA5143600C245ED /* HomeView.swift */; };
 		F66103DA2AA518C200C245ED /* WardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103D92AA518C200C245ED /* WardrobeView.swift */; };
 		F66103DC2AA51DB900C245ED /* ClothingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66103DB2AA51DB900C245ED /* ClothingItem.swift */; };
+		F6A1CE8A2AB3ABAC007669C4 /* RegisterNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1CE892AB3ABAB007669C4 /* RegisterNewItem.swift */; };
+		F6A1CE8D2AB3BCA0007669C4 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1CE8C2AB3BCA0007669C4 /* PhotoCaptureView.swift */; };
+		F6A1CE8F2AB3C049007669C4 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1CE8E2AB3C049007669C4 /* Camera.swift */; };
 		F6D7EB2B2A95182900D25E43 /* wardrobe_wiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */; };
 		F6D7EB2D2A95182900D25E43 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7EB2C2A95182900D25E43 /* LandingView.swift */; };
 		F6D7EB2F2A95182A00D25E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */; };
@@ -43,6 +46,10 @@
 		F66103D72AA5143600C245ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F66103D92AA518C200C245ED /* WardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeView.swift; sourceTree = "<group>"; };
 		F66103DB2AA51DB900C245ED /* ClothingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingItem.swift; sourceTree = "<group>"; };
+		F6A1CE892AB3ABAB007669C4 /* RegisterNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewItem.swift; sourceTree = "<group>"; };
+		F6A1CE8B2AB3AD90007669C4 /* wardrobe-wise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "wardrobe-wise.entitlements"; sourceTree = "<group>"; };
+		F6A1CE8C2AB3BCA0007669C4 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
+		F6A1CE8E2AB3C049007669C4 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		F6D7EB272A95182900D25E43 /* wardrobe-wise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wardrobe-wise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wardrobe_wiseApp.swift; sourceTree = "<group>"; };
 		F6D7EB2C2A95182900D25E43 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -86,6 +93,8 @@
 		F6D7EB1E2A95182800D25E43 = {
 			isa = PBXGroup;
 			children = (
+				F6A1CE8C2AB3BCA0007669C4 /* PhotoCaptureView.swift */,
+				F6A1CE8E2AB3C049007669C4 /* Camera.swift */,
 				F6D7EB292A95182900D25E43 /* wardrobe-wise */,
 				F6D7EB3A2A95182A00D25E43 /* wardrobe-wiseTests */,
 				F6D7EB442A95182A00D25E43 /* wardrobe-wiseUITests */,
@@ -106,6 +115,7 @@
 		F6D7EB292A95182900D25E43 /* wardrobe-wise */ = {
 			isa = PBXGroup;
 			children = (
+				F6A1CE8B2AB3AD90007669C4 /* wardrobe-wise.entitlements */,
 				F6D7EB2A2A95182900D25E43 /* wardrobe_wiseApp.swift */,
 				F6D7EB2C2A95182900D25E43 /* LandingView.swift */,
 				F6D7EB2E2A95182A00D25E43 /* Assets.xcassets */,
@@ -116,6 +126,7 @@
 				F66103DB2AA51DB900C245ED /* ClothingItem.swift */,
 				F66103D92AA518C200C245ED /* WardrobeView.swift */,
 				F66103D72AA5143600C245ED /* HomeView.swift */,
+				F6A1CE892AB3ABAB007669C4 /* RegisterNewItem.swift */,
 			);
 			path = "wardrobe-wise";
 			sourceTree = "<group>";
@@ -275,14 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A1CE8F2AB3C049007669C4 /* Camera.swift in Sources */,
 				F6D7EB552A9529FA00D25E43 /* AccountView.swift in Sources */,
 				F66103DA2AA518C200C245ED /* WardrobeView.swift in Sources */,
 				F66103DC2AA51DB900C245ED /* ClothingItem.swift in Sources */,
 				F6D7EB592A952EA700D25E43 /* MarketplaceView.swift in Sources */,
+				F6A1CE8D2AB3BCA0007669C4 /* PhotoCaptureView.swift in Sources */,
 				F6D7EB5B2A952EE900D25E43 /* SettingsView.swift in Sources */,
 				F66103D82AA5143600C245ED /* HomeView.swift in Sources */,
 				F6D7EB2D2A95182900D25E43 /* LandingView.swift in Sources */,
 				F6D7EB2B2A95182900D25E43 /* wardrobe_wiseApp.swift in Sources */,
+				F6A1CE8A2AB3ABAC007669C4 /* RegisterNewItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wardrobe-wise/wardrobe-wise.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wardrobe-wise/Preview Content\"";
@@ -467,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "wardrobe-wise/wardrobe-wise.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wardrobe-wise/Preview Content\"";

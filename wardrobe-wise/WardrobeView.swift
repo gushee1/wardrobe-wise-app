@@ -23,24 +23,16 @@ struct WardrobeView: View {
                         Text(item.name)
                     }
                 }
-                Button(action: {
-                    self.addNewClothingItem()
-                }){
+                NavigationLink(destination: RegisterNewItem()){
                     Text("Add New Clothing Item")
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(Color.blue)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.black)
                 }
                 .frame(height: geometry.size.height * 0.1)
             }
         }
-    }
-    
-    func addNewClothingItem() {
-        //open a new scene to manage naming, registering tag, and taking pictures of new item
-        let newItem = ClothingItem(name: "New Item") // Replace with your actual data
-        clothingItems.append(newItem)
     }
 }
 
